@@ -1,11 +1,15 @@
 import logo from './logo.svg';
+import React from 'react';
+import Heading from './components/Heading';
+import Restaurant from './components/Restaurant';
+import Mood from './components/Mood';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +20,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+      <Heading />
       </header>
+      <div className='Restaurant-div'>
+        <Restaurant />
+      </div>
+
+      <div className='Mood-div'>
+        <Mood />
+      </div>
     </div>
   );
 }
