@@ -24,7 +24,6 @@ function App() {
         </a> */}
       <Heading />
       </header>
-      </div>
       
       <div className="Restaurant-div">
         <Restaurant />
@@ -33,6 +32,7 @@ function App() {
       <div className="Mood-div">
         <Mood />
       </div>
+    </div>
       </>
   );
 }

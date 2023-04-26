@@ -39,7 +39,11 @@
 }
 
 .Restaurant-div {
-  color: #722525;
-  margin: 0px;
+  background-color: #722525;
+  height: 350px;
+}
 
+.Mood-div {
+  background-color: #000000;
+  height: 350px;
 }
