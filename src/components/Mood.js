@@ -11,7 +11,9 @@ const Mood = () => {
 export default Mood
 
 const Headline = styled.h2`
-    color: purple,
-    background-color: black,
+    color: #d400ff;
+    background-color: #000000;
+    margin: auto;
+    text-align: center;
 `
 

@@ -7,6 +7,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" />
@@ -23,14 +24,16 @@ function App() {
         </a> */}
       <Heading />
       </header>
-      <div className='Restaurant-div'>
+      </div>
+      
+      <div className="Restaurant-div">
         <Restaurant />
       </div>
 
-      <div className='Mood-div'>
+      <div className="Mood-div">
         <Mood />
       </div>
-    </div>
+      </>
   );
 }
 
