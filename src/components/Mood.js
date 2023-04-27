@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import gif from "./MoodGif.gif";
+
 
 const Mood = () => {
     return (
         <>
         <Div0>
         <Div3>
-                <Paragraph>adflgiug;qearug;vaouerbg;oquae
-                    r;ougbvq;
-                    BRWVG;O'UQAER'/OGBQ'aeorwf</Paragraph>
+            <img src={gif} alt={"Image_of_Mood_Tracking_App"} />
             </Div3>
             <Div1>
                 <Headline>Mood Tracking App</Headline>
@@ -69,7 +69,6 @@ border-color: #d400ff;
 `
 const Div3 = styled.div`
 align-text: right;
-width: 300px;
 margin-right: 10%;
 border-color: #d400ff;
 border-width: 20px;

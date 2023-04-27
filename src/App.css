@@ -41,6 +41,7 @@
 .Restaurant-div {
   background-color: #722525;
   height: 350px;
+  width: 1200px;
 }
 
 .Mood-div {
@@ -51,4 +52,5 @@
 .Anime-div {
   background-color: #282c34;;
   height: 350px;
+  color: #55ff00;
 }

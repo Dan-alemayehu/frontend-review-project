@@ -25,27 +25,27 @@ const Anime = () => {
 export default Anime
 
 const Heading = styled.h2`
-    color: green;
+    color: #55ff00;
     margin: auto;
     text-align: center;
     margin-bottom: 3%;
     padding-top: 3%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
 `
 const Paragraph = styled.p`
-color: #daa520;
-font-family: 'Dancing Script', cursive;
+color: #55ff00;
+font-family: 'Sedgwick Ave Display', cursive;
 padding: 10px;
 `
 const Div1 = styled.div`
 width: 300px;
 margin-left: 10%;
-border-color: #d400ff;
+border-color: #55ff00;
 float: left;
 `
 
 const Div2 = styled.div`
 border-width: 20px;
 border-style: dashed;
-border-color: #daa520;
+border-color: #55ff00;
 `
