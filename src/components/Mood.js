@@ -4,6 +4,12 @@ import styled from "styled-components";
 const Mood = () => {
     return (
         <>
+        <Div0>
+        <Div3>
+                <Paragraph>adflgiug;qearug;vaouerbg;oquae
+                    r;ougbvq;
+                    BRWVG;O'UQAER'/OGBQ'aeorwf</Paragraph>
+            </Div3>
             <Div1>
                 <Headline>Mood Tracking App</Headline>
                 <Div2>
@@ -16,6 +22,7 @@ const Mood = () => {
                     </Paragraph>
                 </Div2>
             </Div1>
+        </Div0>
         </>
     )
 
@@ -38,15 +45,33 @@ color: #d400ff;
 font-family: 'DynaPuff', cursive;
 padding: 5px;
 `
+const Div0 = styled.div`
+display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    flex-shrink: 0;
+`
 const Div1 = styled.div`
+align-text: center;
+width: 300px;
+margin-right: 10%;
+border-color: #d400ff;
+`
+
+const Div2 = styled.div`
+border-width: 20px;
+border-style: outset;
+border-color: #d400ff;
+`
+const Div3 = styled.div`
 align-text: right;
 width: 300px;
 margin-right: 10%;
 border-color: #d400ff;
-float: right;
-`
-
-const Div2 = styled.div`
 border-width: 20px;
 border-style: outset;
 border-color: #d400ff;

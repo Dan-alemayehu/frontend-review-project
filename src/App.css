@@ -45,5 +45,10 @@
 
 .Mood-div {
   background-color: #000000;
+  height: auto;
+}
+
+.Anime-div {
+  background-color: #282c34;;
   height: 350px;
 }

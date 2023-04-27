@@ -3,6 +3,7 @@ import React from 'react';
 import Heading from './components/Heading';
 import Restaurant from './components/Restaurant';
 import Mood from './components/Mood';
+import Anime from './components/Anime';
 import './App.css';
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
 
       <div className="Mood-div">
         <Mood />
+      </div>
+
+      <div className="Anime-div">
+        <Anime />
       </div>
     </div>
       </>
