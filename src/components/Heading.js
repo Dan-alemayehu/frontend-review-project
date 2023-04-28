@@ -10,5 +10,5 @@ return (
 export default Heading
 
 const Headline = styled.h1`
-    color: green;
+    color: #61dafb;
 `
